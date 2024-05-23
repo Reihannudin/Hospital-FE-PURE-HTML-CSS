@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Schedule</title>
+  <link rel="stylesheet" href="style/index.css">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav class="fixed top-0 bg-white border-b-gray-100 w-full z-50 ">
+  <header class="w-11 mx-auto">
+    <div class="w-full py-4">
+      <div class="justify-between flex">
+        <div class="h-full flex w-full-to-0 justify-between my-auto">
+          <div class="h-full my-auto">
+            <h1 class="fs-24-to-20 h-full my-auto text-primary">Hostpital</h1>
+          </div>
+          <div class="hide-lg w-2">
+            <button class="btn-primary w-full fs-13 py-2  radius-4">
+              Menu
+            </button>
+          </div>
+        </div>
+        <div class="my-auto show-lg h-full">
+          <ul class="flex my-auto h-full">
+            <li class="mx-auto-to-6 h-full">
+              <a href="/" class="my-auto h-full fs-15 cursor-pointer text-hv">
+                Home
+              </a>
+            </li>
+            <li class="mx-auto-to-6 h-full">
+              <a href="/schedule.html" class="my-auto h-full fs-15 cursor-pointer text-hv">
+                Jadwal
+              </a>
+            <li class="mx-auto-to-6 h-full">
+              <a href="/market.html"  class="my-auto h-full fs-15 cursor-pointer text-hv">
+                Kebutuhan Kesehatan
+              </a>
+            </li>
+            <li class="mx-auto-to-6 h-full">
+              <a href="/information-center.html"  class="my-auto h-full fs-15 cursor-pointer text-hv">
+                Pusat Informasi
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+</nav>
+<main class="mt-0-to-row ">
+  <div class="w-full bg-primary-100 py-8">
+    <div class="w-11 mx-auto py-14">
+      <div class="text-center">
+        <p class="text-primary-600 fs-24">Schedule list</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="w-full py-4-to-10 flex bg-white mx-auto">
+    <div class="w-full-to-4">
+      <div class="w-10 ms-auto h-screen my-4">
+        <div>
+          <div class="mb-4" >
+            <label class="label">Pencarian</label>
+            <div class="my-1">
+              <input class="input fs-13 w-full p-btn-2 " placeholder="Ketik nama dokter atau gunakan filter">
+            </div>
+          </div>
+          <div class="my-4">
+            <p class="text-primary-600 fs-16">Specialist</p>
+            <div>
+              <ul>
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Akupuntur</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Anak</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Bedah digestive</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Bedah Plastik</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Bedah Saraf</p>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Bedah Umum</p>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Gastro Hepatologi</p>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Gizi & Mulut</p>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Gizi</p>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li class="mt-2">
+                  <div class="flex py-3  border-b-gray-100">
+                    <div>
+                      <input type="checkbox" class="radio">
+                    </div>
+                    <div class="mx-2">
+                      <p class="fs-14 text-gray-700">Mata</p>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full-to-8 mx-auto py-4">
+      <div class="w-11 ms-auto">
+        <div class="py-4 w-full flex mx-auto border-b-gray-100 ">
+          <p class="fs-28-to-24 text-primary-600">A</p>
+          <p class="fs-20 text-gray-600 px-4 my-auto">Akupuntur</p>
+        </div>
+        <div class="">
+          <ul class="flex flex-wrap gap-1 w-full">
+            <li class="mt-4 w-card-doctor">
+              <div class="card bg-white px-4 border-b-gray-100 shadow">
+                <div class="w-full py-4 flex justify-between">
+                  <div class="w-full h-full flex my-auto">
+                    <div class="w-2 h-full h-profile">
+                      <img class="bg-gray-100 mx-auto radius-full object-cover h-profile" src="https://images.squarespace-cdn.com/content/v1/624d0307030ab0720c4910f2/f16e0874-b505-47e0-aa54-693dd0d1c134/Anastasia+Yoveline%2C+Sp.AK.jpg?format=300w" />
+                    </div>
+                    <div class="w-10 h-full my-auto px-4">
+                      <div class="w-full mx-auto">
+                        <h2 class="fs-18 text-gray-80">Dr. Anastasia Yoveline, Sp.Ak</h2>
+                        <div class="">
+                          <p class="fs-15 text-gray-600">
+                            Dokter Spesialis Akupunktur Medik
+                          </p>
+                        </div>
+                        <div class="w-full my-4">
+                          <div class="bg-gray-100 px-4 radius-4">
+                            <div class="py-4">
+                              <div class="mb-2">
+                                <p class="fs-16 text-primary-600">Jadwal Dokter</p>
+                              </div>
+                              <div class="">
+                                <div class="">
+                                  <ul class="flex flex-wrap">
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Senin	 :  16:00 - 20:00                </p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Selasa   :  09:00 - 12:00</p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Kamis	 : 16:00 - 20:00  </p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Jumat    : 09:00 - 12:00  </p>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="mt-4 py-2">
+                          <button class="mx-auto btn-primary  items-center fs-13 p-btn-2  radius-4">
+                            Pendaftaran
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="mt-4 w-card-doctor">
+              <div class="card bg-white px-4 border-b-gray-100 shadow">
+                <div class="w-full py-4 flex justify-between">
+                  <div class="w-full h-full flex my-auto">
+                    <div class="w-2 h-full h-profile">
+                      <img class="bg-gray-100  object-fit radius-full h-profile" src="https://images.squarespace-cdn.com/content/v1/624d0307030ab0720c4910f2/1654475290027-VADCBH4S9X157LZWX1TT/Layer+01.png?format=750w" />
+                    </div>
+                    <div class="w-10 h-full my-auto px-4">
+                      <div class="w-full mx-auto">
+                        <h2 class="fs-18 text-gray-80">Dr. Darwin Harpin, Sp.Ak</h2>
+                        <div class="">
+                          <p class="fs-15 text-gray-600">
+                            Dokter Spesialis Akupunktur Medik
+                          </p>
+                        </div>
+                        <div class="w-full my-4">
+                          <div class="bg-gray-100 px-4 radius-4">
+                            <div class="py-4">
+                              <div class="mb-2">
+                                <p class="fs-16 text-primary-600">Jadwal Dokter</p>
+                              </div>
+                              <div class="">
+                                <div class="">
+                                  <ul class="flex flex-wrap">
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Selasa	:  15:00 - 19:00</p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Rabu	: 10:00 - 14:00</p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Kamis	: 15:00 - 19:00   </p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Jumat	: 10:00 - 14:00</p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Sabtu	: 10:00 - 14:00</p>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="mt-4 py-2">
+                          <button class="mx-auto btn-primary  items-center fs-13 p-btn-2  radius-4">
+                            Pendaftaran
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="mt-4 w-card-doctor">
+              <div class="card bg-white px-4 border-b-gray-100 shadow">
+                <div class="w-full py-4 flex justify-between">
+                  <div class="w-full h-full flex my-auto">
+                    <div class="w-2 h-full h-profile">
+                      <img class="bg-gray-100  object-fit radius-full h-profile" src="https://images.squarespace-cdn.com/content/v1/624d0307030ab0720c4910f2/a483df76-2938-4abb-b44a-9bc5f82ee292/Krisma+Perdana.jpg?format=750w" />
+                    </div>
+                    <div class="w-10 h-full my-auto px-4">
+                      <div class="w-full mx-auto">
+                        <h2 class="fs-18 text-gray-80">Dr. Krisma Perdana, Sp.Ak</h2>
+                        <div class="">
+                          <p class="fs-15 text-gray-600">
+                            Dokter Spesialis Akupunktur Medik
+                          </p>
+                        </div>
+                        <div class="w-full my-4">
+                          <div class="bg-gray-100 px-4 radius-4">
+                            <div class="py-4">
+                              <div class="mb-2">
+                                <p class="fs-16 text-primary-600">Jadwal Dokter</p>
+                              </div>
+                              <div class="">
+                                <div class="">
+                                  <ul class="flex flex-wrap">
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Senin    : 09:00 - 12:00      </p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Rabu	: 16:00 - 19:00   </p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Kamis	: 09:00 - 12:00</p>
+                                    </li>
+                                    <li class="w-6">
+                                      <p class="fs-14 text-gray-600">Sabtu	: 16:00 - 19:00</p>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="mt-4 py-2">
+                          <button class="mx-auto btn-primary  items-center fs-13 p-btn-2  radius-4">
+                            Pendaftaran
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="my-2 w-full">
+        <div class="py-3 w-full-to-11 mx-auto">
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="w-full py-4-to-10 bg-primary-50  mx-auto">
+    <div class="w-11 mx-auto py-4 ">
+      <div class="w-full text-center">
+        <h2 class="text-primary-600 fs-24-to-20">Buat Janji temu</h2>
+        <h4 class="fs-14 mt-2 fw-400 text-gray-500">Discover our latest promotion on health services. Take advantage of special offers to prioritize your well-being today!</h4>
+      </div>
+      <div class="mx-auto pt-10 items-center flex  ">
+        <button class="mx-auto btn-primary  items-center fs-13 py-2 w-2-to-6 radius-4">Buat jadwal
+        </button>
+      </div>
+    </div>
+    <div class="my-4">
+      <div class="">
+        <div class="bg-primary-300  w-2 mx-auto radius-8" style="padding: 2px 0">
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="w-full py-4-to-14 bg-white mx-auto">
+    <div class="w-11 mx-auto flex-block pt-10 justify-between ">
+      <div class="w-full-to-5">
+        <div class="w-full">
+          <h2 class="text-gray-800 fs-24-to-20">Berita & Healthpedia</h2>
+          <h4 class="fs-14 fw-400 text-gray-500">Temukan informasi kesehatan yang bermanfaat untuk hidup lebih sehat melalui artikel blog kami.</h4>
+        </div>
+        <div class="mt-4 border-t-gray-100">
+          <div class="my-4">
+            <div class="">
+              <p class="fs-14">Telusuri topik</p>
+            </div>
+            <ul class="flex flex-wrap">
+              <li class="my-2 pe-2">
+                <button class="btn-secondary-outline  radius-12 ">
+                  <p class="fs-12">Category</p>
+                </button>
+              </li>
+              <li class="my-2 pe-2">
+                <button class="btn-secondary-outline  radius-12 ">
+                  <p class="fs-12">Category</p>
+                </button>
+              </li>
+              <li class="my-2 pe-2">
+                <button class="btn-secondary-outline  radius-12 ">
+                  <p class="fs-12">Category</p>
+                </button>
+              </li>
+              <li class="my-2 pe-2">
+                <button class="btn-secondary-outline  radius-12 ">
+                  <p class="fs-12">Category</p>
+                </button>
+              </li>
+              <li class="my-2 pe-2">
+                <button class="btn-secondary-outline  radius-12 ">
+                  <p class="fs-12">Category</p>
+                </button>
+              </li>
+              <li class="my-2 pe-2">
+                <button class="btn-secondary-outline  radius-12 ">
+                  <p class="fs-12">Category</p>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-full-to-8 mx-0-to-6">
+        <div class="py-3">
+          <ul class="flex-wrap flex">
+            <li class="w-full-to-4 my-4">
+              <div class="w-full-to-11 cursor-pointer me-auto">
+                <div class="w-full">
+                  <div class="h-news">
+                    <img  class="w-full radius-8-t object-cover h-full" src="assets/promo-1.jpg"/>
+                  </div>
+                  <div class="w-full">
+                    <div class="my-3">
+                      <p class="fs-16-to-15 text-gray-700 fw-600">Nutrisi Ibu Hamil Kembar yang Perlu</p>
+                    </div>
+                    <div class="mt-4">
+                      <p class="fs-13-to-12  my-1 text-hv">Lihat selengkapnnya </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="w-full-to-4 my-4">
+              <div class="w-full-to-11 cursor-pointer me-auto">
+                <div class="w-full">
+                  <div class="h-news">
+                    <img  class="w-full radius-8-t object-cover h-full" src="assets/promo-1.jpg"/>
+                  </div>
+                  <div class="w-full">
+                    <div class="my-3">
+                      <p class="fs-16-to-15 text-gray-700 fw-600">Nutrisi Ibu Hamil Kembar yang Perlu</p>
+                    </div>
+                    <div class="mt-4">
+                      <p class="fs-13-to-12  my-1 text-hv">Lihat selengkapnnya </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="w-full-to-4 my-4">
+              <div class="w-full-to-11 cursor-pointer me-auto">
+                <div class="w-full">
+                  <div class="h-news">
+                    <img  class="w-full radius-8-t object-cover h-full" src="assets/promo-1.jpg"/>
+                  </div>
+                  <div class="w-full">
+                    <div class="my-3">
+                      <p class="fs-16-to-15 text-gray-700 fw-600">Nutrisi Ibu Hamil Kembar yang Perlu</p>
+                    </div>
+                    <div class="mt-4">
+                      <p class="fs-13-to-12  my-1 text-hv">Lihat selengkapnnya </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+<footer class="w-full bg-gray-50 pt-4">
+  <header class="w-full mx-auto pt-4">
+    <div class="w-11 mx-auto">
+      <div class="flex-block justify-between">
+        <div class="w-full-to-4">
+          <div class="w-full">
+            <div class="w-full">
+              <h1 class="fs-24-to-20 text-primary">Hostpital</h1>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="my-4">
+              <p class="fs-14-to-13 text-gray-500">You're welcome! If you have any more questions as you go through the installation and setup process or when you start working on your React Native project, don't hesitate to reach out. Good luck with your development journey!</p>
+            </div>
+            <div class="my-2">
+              <p class="fs-14-to-13 text-gray-500">Contact : +62 81218391138</p>
+            </div>
+            <div class="my-2">
+              <p class="fs-14-to-13 text-gray-500">Email : reedbulls91@gmail.com</p>
+            </div>
+            <div class="my-2">
+              <p class="fs-14-to-13 text-gray-500">Instagram : reihannudin</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="w-full-to-8">
+          <ul class="w-11 flex text-left flex-wrap ms-0-to-auto">
+
+            <li class="ms-0-to-auto w-6-to-4">
+              <div class="w-full-to-11 ms-auto">
+                <div class="my-2">
+                  <h2 class="fs-18-to-16 text-gray-800 fw-600">About Us</h2>
+                </div>
+                <ul class="block">
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer fs-15-to-14">About use</a>
+                  </li>
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                  </li>
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="ms-0-to-auto w-6-to-4">
+              <div class="w-full-to-11 ms-auto">
+                <div class="my-2">
+                  <h2 class="fs-18-to-16 text-gray-800 fw-600">About Us</h2>
+                </div>
+                <ul class="block">
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer fs-15-to-14">About use</a>
+                  </li>
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                  </li>
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="ms-0-to-auto w-6-to-4">
+              <div class="w-full-to-11 ms-auto">
+                <div class="my-2">
+                  <h2 class="fs-18-to-16 text-gray-800 fw-600">About Us</h2>
+                </div>
+                <ul class="block">
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer fs-15-to-14">About use</a>
+                  </li>
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                  </li>
+                  <li class="my-1">
+                    <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+      <div class="mt-row py-4 ">
+        <p class="text-gray-600 fs-14-to-13">@copyright by reihannudin</p>
+      </div>
+    </div>
+  </header>
+</footer>
+
+</body>
+</html>

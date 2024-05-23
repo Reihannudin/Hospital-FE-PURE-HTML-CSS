@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style/index.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav class="fixed top-0 bg-white border-b-gray-100 w-full z-50 ">
+    <header class="w-11 mx-auto">
+        <div class="w-full py-4">
+            <div class="justify-between flex">
+                <div class="h-full flex w-full-to-0 justify-between my-auto">
+                    <div class="h-full my-auto">
+                        <h1 class="fs-24-to-20 h-full my-auto text-primary">Hostpital</h1>
+                    </div>
+                    <div class="hide-lg w-2">
+                        <button class="btn-primary w-full fs-13 py-2  radius-4">
+                            Menu
+                        </button>
+                    </div>
+                </div>
+                <div class="my-auto show-lg h-full">
+                    <ul class="flex my-auto h-full">
+                        <li class="mx-auto-to-6 h-full">
+                            <a href="/" class="my-auto h-full fs-15 cursor-pointer text-hv">
+                                Home
+                            </a>
+                        </li>
+                        <li class="mx-auto-to-6 h-full">
+                            <a href="/schedule.html" class="my-auto h-full fs-15 cursor-pointer text-hv">
+                                Jadwal
+                            </a>
+                        <li class="mx-auto-to-6 h-full">
+                            <a href="/market.html"  class="my-auto h-full fs-15 cursor-pointer text-hv">
+                                Kebutuhan Kesehatan
+                            </a>
+                        </li>
+                        <li class="mx-auto-to-6 h-full">
+                            <a href="/information-center.html"  class="my-auto h-full fs-15 cursor-pointer text-hv">
+                                Pusat Informasi
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</nav>
+<main class="mt-0-to-row ">
+
+    <section class="w-full gap-1 py-4-to-10 flex bg-white mx-auto">
+        <div class="w-full-to-4">
+            <div class="w-9 mx-auto h-screen my-4">
+                <div class="w-full py-4 mx-6">
+                    <div class="border-b-gray-100 ">
+                        <div class="text-center">
+                            <div class="h-full mx-auto h-profile">
+                                <img class="bg-gray-100 w-full radius-full h-profile" src="https://images.squarespace-cdn.com/content/v1/624d0307030ab0720c4910f2/f16e0874-b505-47e0-aa54-693dd0d1c134/Anastasia+Yoveline%2C+Sp.AK.jpg?format=300w" />
+                            </div>
+                            <h2 class="fs-18 text-gray-80 my-1">Reihannudin</h2>
+                            <div class="my-4">
+                                <div class="">
+                                    <p class="fs-14 text-gray-600">
+                                        Member : Basic
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <p class="fs-15 text-gray-600">
+                                        Saldo : Rp.100.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-b-gray-100 ">
+                        <div class="py-4">
+                            <p class="fs-13 text-gray-600">
+                                Alamat : Grand Catania blok - 5 no 39
+                            </p>
+                        </div>
+                    </div>
+                    <div class="border-b-gray-100 py-2">
+                        <div class="py-2">
+                            <p class="fs-14 fw-600 text-gray800">
+                                Transaksi
+                            </p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="my-2 py-1 ">
+                                    <a>
+                                        <p class="fs-13 text-hv">
+                                            Pembelian
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="my-2 py-1 ">
+                                    <a>
+                                        <p class="fs-13 text-hv">
+                                            Konsultan
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="my-2 py-1 ">
+                                    <a>
+                                        <p class="fs-13 text-hv">
+                                            Janji temu
+                                        </p>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="border-b-gray-100 py-2">
+                        <div class="py-2">
+                            <p class="fs-14 fw-600 text-gray800">
+                                Profile
+                            </p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="my-2 py-1 ">
+                                    <a>
+                                        <p class="fs-13 text-hv">
+                                            Wishlist
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="my-2 py-1 ">
+                                    <a>
+                                        <p class="fs-13 text-hv">
+                                            History
+                                        </p>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full-to-8  radius-8 mx-auto py-4">
+            <div class="w-11 bg-gray-50 relative h-screen py-4 me-auto">
+                <div class="px-4">
+                    <div class="py-2 w-full block mx-auto border-b-gray-100 ">
+                        <div>
+                            <p class="fs-20 fw-600 text-gray-600 px-4 my-auto">Keranjang</p>
+
+                        </div>
+                        <div class="mx-4  pt-2">
+                            <div class="my-2 flex gap-1">
+                                <div class="my-auto h-full">
+                                    <p class="text-gray-700 my-auto h-full fw-600 fs-15">Status : </p>
+                                </div>
+                                <ul class="flex gap-1">
+                                    <li class="btn-secondary-outline radius-4">
+                                        <a class="">
+                                            <p class="fs-13">Berhasil</p>
+                                        </a>
+                                    </li>
+                                    <li class="btn-secondary-outline radius-4">
+                                        <a class="">
+                                            <p class="fs-13">Gagal</p>
+                                        </a>
+                                    </li>
+                                    <li class="btn-secondary-outline radius-4">
+                                        <a class="">
+                                            <p class="fs-13">Berhasil</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <ul class="flex flex-wrap gap-1 w-full">
+                            <li class="w-full">
+                                <div class="card w-full bg-white py-4 radius-8 ">
+                                    <div class="px-4">
+                                        <div class="flex border-b-gray-100 py-2 justify-between gap-1">
+                                            <div>
+                                                <p class="fs-14 my-auto fw-600 h-full text-gray-600">Shop Name</p>
+                                            </div>
+                                            <div class="mx-6">
+                                                <input type="radio" class="cursor-pointer">
+                                            </div>
+                                        </div>
+                                        <div class="my-4 flex justify-between">
+                                            <div class="w-11 flex justify-between">
+                                                <div class="flex gap-1">
+                                                    <div class="h-order border-none bg-gray-50 radius-8">
+                                                        <img class="w-full h-full bg-gray-50 border-none radius-8" src="" />
+                                                    </div>
+                                                    <div class="my-auto flex">
+                                                        <div class="my-auto w-9">
+                                                            <p class="fs-15 text-gray-600">Kartu Topps F1 Formula One Lights Out Max Verstappen Red Bull Racing</p>
+                                                            <p class="fs-13 text-gray-500 my-1">Type</p>
+                                                        </div>
+                                                        <div class="flex w-3">
+                                                            <div class="">
+                                                                <button class="btn-cart cursor-pointer">
+                                                                    -
+                                                                </button>
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <input class="input-cart text-center" placeholder="1" />
+                                                            </div>
+                                                            <div class="">
+                                                                <button class="btn-cart cursor-pointer">
+                                                                    +
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="w-3 border-l-gray-100  my-auto h-full">
+                                                    <div class="px-4 my-auto h-full">
+                                                        <p class="fs-13 text-gray-500">Total Belanja</p>
+                                                        <p class="fs-15 text-gray-800">Rp 30.300</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="w-1">
+                                                <div class="mx-6">
+                                                    <input type="checkbox" class="cursor-pointer">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="absolute bottom-0 border-b-gray-100 w-full">
+                    <div class="bg-white py-4">
+                        <div class="flex w-11 mx-auto justify-between">
+                            <div class="">
+                                <h2 class="fs-18 text-gray-600">Total</h2>
+                            </div>
+                            <div class="">
+                                <h2 class="fs-18 text-gray-600">Total</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white py-4">
+                        <div class="flex w-11 mx-auto justify-between">
+                            <div class="w-6">
+                            </div>
+                            <div class="w-6 ms-auto">
+                                <div class="ms-auto  w-6">
+                                    <button class="btn-primary  items-end fs-14 py-2 w-full radius-4">Order
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-2 w-full">
+                <div class="py-3 w-full-to-11 mx-auto">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="w-full py-4-to-10 bg-primary-50  mx-auto">
+        <div class="w-11 mx-auto py-4 ">
+            <div class="w-full text-center">
+                <h2 class="text-primary-600 fs-24-to-20">Buat Janji temu</h2>
+                <h4 class="fs-14 mt-2 fw-400 text-gray-500">Discover our latest promotion on health services. Take advantage of special offers to prioritize your well-being today!</h4>
+            </div>
+            <div class="mx-auto pt-10 items-center flex  ">
+                <button class="mx-auto btn-primary  items-center fs-13 py-2 w-2-to-6 radius-4">Buat jadwal
+                </button>
+            </div>
+        </div>
+        <div class="my-4">
+            <div class="">
+                <div class="bg-primary-300  w-2 mx-auto radius-8" style="padding: 2px 0">
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="w-full py-4-to-14 bg-white mx-auto">
+        <div class="w-11 mx-auto flex-block pt-10 justify-between ">
+            <div class="w-full-to-5">
+                <div class="w-full">
+                    <h2 class="text-gray-800 fs-24-to-20">Berita & Healthpedia</h2>
+                    <h4 class="fs-14 fw-400 text-gray-500">Temukan informasi kesehatan yang bermanfaat untuk hidup lebih sehat melalui artikel blog kami.</h4>
+                </div>
+                <div class="mt-4 border-t-gray-100">
+                    <div class="my-4">
+                        <div class="">
+                            <p class="fs-14">Telusuri topik</p>
+                        </div>
+                        <ul class="flex flex-wrap">
+                            <li class="my-2 pe-2">
+                                <button class="btn-secondary-outline  radius-12 ">
+                                    <p class="fs-12">Category</p>
+                                </button>
+                            </li>
+                            <li class="my-2 pe-2">
+                                <button class="btn-secondary-outline  radius-12 ">
+                                    <p class="fs-12">Category</p>
+                                </button>
+                            </li>
+                            <li class="my-2 pe-2">
+                                <button class="btn-secondary-outline  radius-12 ">
+                                    <p class="fs-12">Category</p>
+                                </button>
+                            </li>
+                            <li class="my-2 pe-2">
+                                <button class="btn-secondary-outline  radius-12 ">
+                                    <p class="fs-12">Category</p>
+                                </button>
+                            </li>
+                            <li class="my-2 pe-2">
+                                <button class="btn-secondary-outline  radius-12 ">
+                                    <p class="fs-12">Category</p>
+                                </button>
+                            </li>
+                            <li class="my-2 pe-2">
+                                <button class="btn-secondary-outline  radius-12 ">
+                                    <p class="fs-12">Category</p>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full-to-8 mx-0-to-6">
+                <div class="py-3">
+                    <ul class="flex-wrap flex">
+                        <li class="w-full-to-4 my-4">
+                            <div class="w-full-to-11 cursor-pointer me-auto">
+                                <div class="w-full">
+                                    <div class="h-news">
+                                        <img  class="w-full radius-8-t object-cover h-full" src="assets/promo-1.jpg"/>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="my-3">
+                                            <p class="fs-16-to-15 text-gray-700 fw-600">Nutrisi Ibu Hamil Kembar yang Perlu</p>
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="fs-13-to-12  my-1 text-hv">Lihat selengkapnnya </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w-full-to-4 my-4">
+                            <div class="w-full-to-11 cursor-pointer me-auto">
+                                <div class="w-full">
+                                    <div class="h-news">
+                                        <img  class="w-full radius-8-t object-cover h-full" src="assets/promo-1.jpg"/>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="my-3">
+                                            <p class="fs-16-to-15 text-gray-700 fw-600">Nutrisi Ibu Hamil Kembar yang Perlu</p>
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="fs-13-to-12  my-1 text-hv">Lihat selengkapnnya </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w-full-to-4 my-4">
+                            <div class="w-full-to-11 cursor-pointer me-auto">
+                                <div class="w-full">
+                                    <div class="h-news">
+                                        <img  class="w-full radius-8-t object-cover h-full" src="assets/promo-1.jpg"/>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="my-3">
+                                            <p class="fs-16-to-15 text-gray-700 fw-600">Nutrisi Ibu Hamil Kembar yang Perlu</p>
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="fs-13-to-12  my-1 text-hv">Lihat selengkapnnya </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+<footer class="w-full bg-gray-50 pt-4">
+    <header class="w-full mx-auto pt-4">
+        <div class="w-11 mx-auto">
+            <div class="flex-block justify-between">
+                <div class="w-full-to-4">
+                    <div class="w-full">
+                        <div class="w-full">
+                            <h1 class="fs-24-to-20 text-primary">Hostpital</h1>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <div class="my-4">
+                            <p class="fs-14-to-13 text-gray-500">You're welcome! If you have any more questions as you go through the installation and setup process or when you start working on your React Native project, don't hesitate to reach out. Good luck with your development journey!</p>
+                        </div>
+                        <div class="my-2">
+                            <p class="fs-14-to-13 text-gray-500">Contact : +62 81218391138</p>
+                        </div>
+                        <div class="my-2">
+                            <p class="fs-14-to-13 text-gray-500">Email : reedbulls91@gmail.com</p>
+                        </div>
+                        <div class="my-2">
+                            <p class="fs-14-to-13 text-gray-500">Instagram : reihannudin</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-full-to-8">
+                    <ul class="w-11 flex text-left flex-wrap ms-0-to-auto">
+
+                        <li class="ms-0-to-auto w-6-to-4">
+                            <div class="w-full-to-11 ms-auto">
+                                <div class="my-2">
+                                    <h2 class="fs-18-to-16 text-gray-800 fw-600">About Us</h2>
+                                </div>
+                                <ul class="block">
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer fs-15-to-14">About use</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="ms-0-to-auto w-6-to-4">
+                            <div class="w-full-to-11 ms-auto">
+                                <div class="my-2">
+                                    <h2 class="fs-18-to-16 text-gray-800 fw-600">About Us</h2>
+                                </div>
+                                <ul class="block">
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer fs-15-to-14">About use</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="ms-0-to-auto w-6-to-4">
+                            <div class="w-full-to-11 ms-auto">
+                                <div class="my-2">
+                                    <h2 class="fs-18-to-16 text-gray-800 fw-600">About Us</h2>
+                                </div>
+                                <ul class="block">
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer fs-15-to-14">About use</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <a class="text-hv cursor-pointer  fs-15-to-14">Privacy police</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-row py-4 ">
+                <p class="text-gray-600 fs-14-to-13">@copyright by reihannudin</p>
+            </div>
+        </div>
+    </header>
+</footer>
+
+</body>
+</html>
